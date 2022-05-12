@@ -1,0 +1,24 @@
+nick_name = "Molle"
+
+# snake_case
+# camelCase
+# PascalCase
+# kebab-case
+
+#string conctenation
+print("My name is " + nick_name + "!")
+
+# String interpolation f-strings
+print( f"My name is {nick_name}!")
+
+# String interpolation %-formatting
+print("My name is %s!" % nick_name)
+
+# String interpolation %-formatting multiple
+last_name = "Molander"
+print("My name is %s %s!" % (nick_name, last_name))
+
+print( f"My name is {nick_name} {last_name}!")
+
+# String interpolation = str.format()
+print("My name is {}!".format(nick_name))
